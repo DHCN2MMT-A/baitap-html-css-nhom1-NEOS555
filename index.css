@@ -1,0 +1,72 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 800px;
+    margin: auto;
+}
+
+#top{
+    height: 100px;
+    background: aqua;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+
+#menu{
+    height: 30px;
+    
+}
+
+#menu ul li{
+    list-style-type: none;
+    float: left;
+    width: 160px;
+    text-align: center;
+    line-height: 30px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+}
+
+
+
+#left{
+    float: left;
+    width: 618px;
+    border: 1px solid white;
+
+}
+
+#news{
+ border-bottom: 1px solid red;
+ margin: 5px 10px 5px 10px;
+ padding-bottom: 5px;
+}
+
+.news img{
+    border: 1px solid #CCC;
+    padding: 2px;
+    float: left;
+    margin-right: 5px;
+}
+
+#right{
+    float: left;
+    width: 178px;
+    border: 1px solid black;
+
+}
+
+#bottom{
+    clear: left;
+    height: 40px;
+    width: 800px;
+    margin: auto;
+    background: gray;
+}
